@@ -1,0 +1,27 @@
+body {
+    font-family: 'Helvetica', 'Sans-Serif';
+    background-color: #F5F5F5;
+}
+
+.container {
+    display: flex;
+}
+
+    label {
+        width: 7rem;
+    }
+
+    label:after {
+        content: ' :';
+    }
+
+    header {
+        margin-bottom: 2em;
+        border-bottom: 3px solid#000;
+    }
+
+    footer {
+        border-top: 3px solid #000;
+        margin-top: 2em;
+        padding-top: 0.5em;
+    }

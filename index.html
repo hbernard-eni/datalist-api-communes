@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="utf-8">
+    <title>API Commune et datalist | démo</title>
+    <link rel="stylesheet" href="public/css/app.css">
+    <script src="public/js/app.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Appel de l'API Communes et utilisation d'une balise HTML datalist</h1>
+</header>
+<main>
+    <form>
+        <div class="container">
+            <label for="communes">Commune</label>
+            <input name="commune" id="commune" list="communes-dtl">
+            <!-- L'id de la datalist doit être identique à la valeur de l'attribut 'list' du input -->
+            <datalist id="communes-dtl">
+                <!-- le JavaScript va créer des balises <option> -->
+            </datalist>
+        </div>
+    </form>
+</main>
+<footer>
+    <div>> <a href="https://geo.api.gouv.fr/decoupage-administratif/communes" title="Documentation" target="_blank">API Communes : documentation</a></div>
+</footer>
+</body>
+</html>
